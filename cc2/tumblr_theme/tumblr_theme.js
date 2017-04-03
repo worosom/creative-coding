@@ -6,7 +6,6 @@ function setup() {
 }
 
 function draw() {
-  background(255);
   var dirX = (mouseX / windowWidth)-.5;
   var dirY = (mouseY / windowHeight)-.5;
   translate(0, 0, -66);
