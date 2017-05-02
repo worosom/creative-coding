@@ -29,3 +29,7 @@ class Circle {
     ellipse(pos.x, pos.y, radius, radius);
   }
 }
+
+void mousePressed() {
+  saveFrame();
+}

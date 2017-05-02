@@ -4,6 +4,7 @@ ParticleSystem ps;
 
 void setup() {
   size(500, 500);
+  noStroke();
   // initialisiere das Partikel System
   ps = new ParticleSystem(50);
 }
